@@ -2,6 +2,8 @@ import {useState} from "react";
 
 export default function UseState(){
 
+    // to keep the internal state of the component
+
     const [count, setCount] = useState(0);
 
     // handle increment

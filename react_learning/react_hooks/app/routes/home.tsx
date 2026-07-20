@@ -1,5 +1,6 @@
 import UseState from "~/hooks/UseState";
 import type { Route } from "./+types/home";
+import UseEffect from "~/hooks/UseEffect";
 
 export function meta({}: Route.MetaArgs) {
   return [
@@ -11,6 +12,9 @@ export function meta({}: Route.MetaArgs) {
 export default function Home() {
   return (
     // use state
-    <UseState/>
+    // <UseState/>
+
+    // use effect
+    <UseEffect/>
   );
 }
