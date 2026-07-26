@@ -2,6 +2,7 @@ import UseState from "~/hooks/UseState";
 import type { Route } from "./+types/home";
 import UseEffect from "~/hooks/UseEffect";
 import UseContext from "~/hooks/UseContext";
+import UseReducer from "~/hooks/UseReducer";
 
 export function meta({}: Route.MetaArgs) {
   return [
@@ -19,6 +20,9 @@ export default function Home() {
     // <UseEffect/>
 
     // use context
-    <UseContext/>
+    // <UseContext/>
+
+    // use reducer
+    <UseReducer/>
   );
 }
