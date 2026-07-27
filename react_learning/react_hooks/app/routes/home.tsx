@@ -3,6 +3,7 @@ import type { Route } from "./+types/home";
 import UseEffect from "~/hooks/UseEffect";
 import UseContext from "~/hooks/UseContext";
 import UseReducer from "~/hooks/UseReducer";
+import UseRef from "~/hooks/UseRef";
 
 export function meta({}: Route.MetaArgs) {
   return [
@@ -23,6 +24,9 @@ export default function Home() {
     // <UseContext/>
 
     // use reducer
-    <UseReducer/>
+    // <UseReducer/>
+
+    // use ref
+    <UseRef/>
   );
 }
