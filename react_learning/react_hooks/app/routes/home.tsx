@@ -4,6 +4,7 @@ import UseEffect from "~/hooks/UseEffect";
 import UseContext from "~/hooks/UseContext";
 import UseReducer from "~/hooks/UseReducer";
 import UseRef from "~/hooks/UseRef";
+import UseImperativeHandle from "~/hooks/UseImperativeHandle";
 
 export function meta({}: Route.MetaArgs) {
   return [
@@ -27,6 +28,9 @@ export default function Home() {
     // <UseReducer/>
 
     // use ref
-    <UseRef/>
+    // <UseRef/>
+
+    // use imperative handle
+    <UseImperativeHandle/>
   );
 }
