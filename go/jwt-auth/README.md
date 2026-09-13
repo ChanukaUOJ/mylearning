@@ -1,0 +1,18 @@
+
+
+#### Env example
+```
+PORT=3000
+PGHOST='<pg-host>'
+PGDATABASE='<db_name>'
+PGUSER='<user_name>'
+PGPASSWORD='<db_password>'
+PGSSLMODE='require'
+PGCHANNELBINDING='require'
+PGPORT='5432'
+```
+
+#### Run the app
+```
+    compiledaemon --command="./jwt-auth"
+```
